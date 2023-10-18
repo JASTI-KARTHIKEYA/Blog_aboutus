@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us - Purnakumbham</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #181818;
+        color: #fff;
+      }
+      .jumbotron {
+        background: #ba93d3;
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: inline;
+        border-radius: 30px;
+      }
+      .jumbotron h1 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .jumbotron p {
+        font-size: 24px;
+      }
+      .team-description {
+        animation: slide-in-left 1s ease;
+      }
+      .mission-description {
+        animation: slide-in-right 1s ease;
+      }
+      .values ul {
+        list-style-type: none;
+      }
+      .values li::before {
+        content: "\f058";
+        font-family: "Font Awesome 5 Free";
+        margin-right: 10px;
+      }
+      .rounding{
+        display: flex;
+        background: #a0d2eb;
+        padding-left: 250px;
+        height: 345px;
+      }
+
+      .jumbotron::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+      .team-description,
+      .mission-description,
+      .values {
+        background: #262525;
+        padding: 17px;
+        position: relative;
+        z-index: 1;
+        border-radius: 15px;
+        margin-bottom: 4px;
+      }
+      @keyframes slide-in-left {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+      @keyframes slide-in-right {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rounding">
+    <div class="jumbotron">
+      <h1 style="color: #181818">Welcome to Purnakumbham</h1>
+      <p>Exploring the Rich Heritage of Telugu Culture and Literature</p>
+    </div>
+    <div class="images">
+        <img src="image-removebg-preview (11).png" alt="Telugu">
+    </div>
+</div>
+   
+
+   </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 team-description">
+          <h2>Our Team</h2>
+          <p>
+            We are a passionate team dedicated to sharing the beauty of Telugu
+            culture and literature with the world.
+          </p>
+        </div>
+        <div class="col-md-6 mission-description">
+          <h2>Our Mission</h2>
+          <p>
+            To preserve and promote Telugu culture, art, and literature for
+            future generations, while celebrating our rich heritage.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container values">
+      <h2>Our Values</h2>
+      <ul>
+        <li>Heritage Preservation</li>
+        <li>Cultural Diversity</li>
+        <li>Literary Excellence</li>
+        <li>Community Engagement</li>
+      </ul>
+    </div>
+
+    <footer class="text-center py-4">
+      &copy; 2023 Purnakumbham - Telugu Culture and Literature Blog
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
