@@ -6,6 +6,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
     <style>
       body {
         background-color: #181818;
@@ -85,9 +88,46 @@
           transform: translateX(0);
         }
       }
+      .NavBar{
+        background-color: #fff;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+      }
+      .Homes{
+       text-decoration-line: none;
+       font-size: medium;
+       font: bold;
+      }
+      /* unvisited link */
+      a:link, a:visited {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: auto;
+  align-items: center;
+  margin: auto;
+  width: 150%;
+  padding: 5px;
+   font-weight: bold;
+   font-size:x-large;
+   font-family: 'Homenaje', sans-serif;
+}
+
+a:hover, a:active {
+  background-color: fff;
+}
     </style>
   </head>
   <body>
+    <div class="NavBar">
+      <img src="Logo1.png" style="background-color: #fff;width: 150px; height: auto; margin-left: 30px; margin-top: 5px;"/>
+      <div class="Homes">
+        <a href="https://purnakumbham001.blogspot.com/">Home</a>
+      </div>
+    </div>
     <div class="rounding">
     <div class="jumbotron">
       <h1 style="color: #181818">Welcome to Purnakumbham</h1>
