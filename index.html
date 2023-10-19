@@ -2,25 +2,19 @@
 <html>
   <head>
     <title>About Us - Purnakumbham</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
     <style>
       body {
         background-color: #181818;
         color: #fff;
-        max-width: 1400;
-        margin: 0 auto;
+        max-width: 1600;
       }
-
       .jumbotron {
         background: #ba93d3;
         text-align: center;
@@ -31,42 +25,34 @@
         display: inline;
         border-radius: 30px;
       }
-
       .jumbotron h1 {
         font-size: 48px;
         text-transform: uppercase;
         letter-spacing: 2px;
       }
-
       .jumbotron p {
         font-size: 24px;
       }
-
       .team-description {
         animation: slide-in-left 1s ease;
       }
-
       .mission-description {
         animation: slide-in-right 1s ease;
       }
-
       .values ul {
         list-style-type: none;
       }
-
       .values li::before {
         content: "\f058";
         font-family: "Font Awesome 5 Free";
         margin-right: 10px;
       }
-
-      .rounding {
+      .rounding{
         display: flex;
         background: #a0d2eb;
         padding-left: 250px;
-        height: 345px
-        max-width: 1400;
-        margin: 0 auto;
+        height: 345px;
+        width: 1600;
       }
 
       .jumbotron::before {
@@ -78,7 +64,6 @@
         height: 100%;
         z-index: 0;
       }
-
       .team-description,
       .mission-description,
       .values {
@@ -87,9 +72,9 @@
         position: relative;
         z-index: 1;
         border-radius: 15px;
-        margin-top: 10px;
+        margin-bottom: 4px;
+        width: 1600;
       }
-
       @keyframes slide-in-left {
         0% {
           transform: translateX(-100%);
@@ -98,7 +83,6 @@
           transform: translateX(0);
         }
       }
-
       @keyframes slide-in-right {
         0% {
           transform: translateX(100%);
@@ -107,81 +91,69 @@
           transform: translateX(0);
         }
       }
-
-      .NavBar {
+      .NavBar{
+        width: 1600;
         background-color: #fff;
         height: 50px;
         display: flex;
         flex-direction: row;
       }
-
-      .navbar-brand {
-        margin-left: 30px;
-        margin-top: 5px;
+      .Homes{
+       text-decoration-line: none;
+       font-size: medium;
+       font: bold;
       }
-
-      .Homes a {
-        text-decoration-line: none;
-        font-size: medium;
-        font: bold;
-      }
-
       /* unvisited link */
-      a:link,
-      a:visited {
-        background-color: #fff;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        height: auto;
-        align-items: center;
-        margin: auto;
-        width: 150%;
-        padding: 5px;
-        font-weight: bold;
-        font-size: x-large;
-        font-family: "Homenaje", sans-serif;
-      }
+      a:link, a:visited {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  height: auto;
+  align-items: center;
+  margin: auto;
+  width: 150%;
+  padding: 5px;
+   font-weight: bold;
+   font-size:x-large;
+   font-family: 'Homenaje', sans-serif;
+}
 
-      a:hover,
-      a:active {
-        background-color: fff;
-      }
+a:hover, a:active {
+  background-color: fff;
+}
     </style>
   </head>
-
   <body>
     <div class="NavBar">
-      <img
-        src="Logo1.png"
-        class="navbar-brand"
-        style="width: 150px; height: auto"
-      />
+      <img src="Logo1.png" style="background-color: #fff;width: 150px; height: auto; margin-left: 30px; margin-top: 5px;"/>
       <div class="Homes">
         <a href="https://purnakumbham001.blogspot.com/">Home</a>
       </div>
     </div>
     <div class="rounding">
-      <div class="jumbotron">
-        <h1 style="color: #181818">Welcome to Purnakumbham</h1>
-        <p>Exploring the Rich Heritage of Telugu Culture and Literature</p>
-      </div>
-      <div class="images">
-        <img src="image-removebg-preview (11).png" alt="Telugu" />
-      </div>
+    <div class="jumbotron">
+      <h1 style="color: #181818">Welcome to Purnakumbham</h1>
+      <p>Exploring the Rich Heritage of Telugu Culture and Literature</p>
     </div>
+    <div class="images">
+        <img src="image-removebg-preview (11).png" alt="Telugu">
+    </div>
+</div>
+   
 
+   </div>
     <div class="container">
       <div class="row">
-        <div class="col-12 team-description">
+        <div class="col-md-6 team-description">
           <h2>Our Team</h2>
           <p>
             We are a passionate team dedicated to sharing the beauty of Telugu
             culture and literature with the world.
           </p>
         </div>
-        <div class="col-12 mission-description">
+        <div class="col-md-6 mission-description">
           <h2>Our Mission</h2>
           <p>
             To preserve and promote Telugu culture, art, and literature for
